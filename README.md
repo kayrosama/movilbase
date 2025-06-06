@@ -22,8 +22,8 @@ Linux:
 
 ```bash
 
-git clone https://github.com/kayrosama/ksm.git
-cd ksm
+git clone https://github.com/kayrosama/apibase.git
+cd apibase
 apt-get install -f -y python3-pip python3-venv
 python3 -m venv .venv
 source .venv/bin/activate
