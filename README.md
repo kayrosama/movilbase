@@ -65,7 +65,7 @@ Mientras esta aun este desarrollando el proyecto se debe crear un super usuario 
 python3 manage.py createsuperuser
 
 username: admin
-email: master@ksm.io
+email: master@kmkz.io
 password: adm123
 
 ```
@@ -86,7 +86,7 @@ users/models.py
 python3 manage.py runserver
 
 http://127.0.0.1:8000/admin
-email: master@apibase.com
+email: master@kmkz.io
 password: adm123
 
 ```

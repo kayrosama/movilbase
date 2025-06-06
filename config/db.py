@@ -13,10 +13,10 @@ SQLITE = {
 POSTGRESQL = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'factora',
+        'NAME': 'apibase',
         'USER': 'postgres',
-        'PASSWORD': '123',
-        'HOST': 'localhost',
+        'PASSWORD': 'admin321',
+        'HOST': '127.0.0.1',
         'PORT': '5432',
         'ATOMIC_REQUESTS': True
     }
@@ -27,9 +27,9 @@ MYSQL = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'db',
-        'USER': 'root',
-        'PASSWORD': '123',
-        'HOST': 'localhost',
+        'USER': 'kohana',
+        'PASSWORD': 'admin321',
+        'HOST': '127.0.0.1',
         'PORT': '',
     }
 }
@@ -42,7 +42,7 @@ SQLSERVER = {
         'NAME': 'db',
         'USER': '',
         'PASSWORD': '',
-        'HOST': 'localhost',
+        'HOST': '127.0.0.1',
         'PORT': '1433',
         'OPTIONS': {
             'driver': 'SQL Server Native Client 10.0',
