@@ -22,7 +22,7 @@ Linux:
 
 ```bash
 
-git clone https://github.com/kayrosama/apibase.git
+git clone https://github.com/kayrosama/boxpkg.git
 cd apibase
 apt-get install -f -y python3-pip python3-venv
 python3 -m venv .venv
